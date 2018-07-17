@@ -2,7 +2,8 @@ import { Component, State, Method } from '../../../../dist';
 
 
 @Component({
-  tag: 'slot-map-state-update-root'
+  tag: 'slot-map-state-update-root',
+  scoped: true
 })
 export class SlotMapStateUpdateRoot {
 
